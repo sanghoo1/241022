@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>흐르는배너</title>
+  <link rel="stylesheet" href="./swiper-bundle.min.css">
+  <link rel="stylesheet" href="./흐르는배너연습.css">
+  <script src="./swiper-bundle.min.js"></script>
+</head>
+<body>
+  <section class="main-slide">
+    <!-- 슬라이드 -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide main-bg1">Slide 1</div>
+        <div class="swiper-slide main-bg2">Slide 2</div>
+        <div class="swiper-slide main-bg3">Slide 3</div>
+        <div class="swiper-slide main-bg4">Slide 4</div>
+        <div class="swiper-slide main-bg5">Slide 5</div>
+        <div class="swiper-slide main-bg6">Slide 6</div>
+        <div class="swiper-slide main-bg7">Slide 7</div>
+        <div class="swiper-slide main-bg8">Slide 8</div>
+        <div class="swiper-slide main-bg9">Slide 9</div>
+        <div class="swiper-slide main-bg10">Slide 10</div>
+      
+                  
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Initialize Swiper -->
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+  autoplay: {
+   delay: 0,
+   stopOnLastSlide: false,
+   disableOnInteraction: true,
+},
+speed:8000,
+loop:true,
+slidesPerView: 5,
+ //noSwiping : true,
+observer:true, observeParents:true,
+loopedSlides: 10,
+});
+  </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+.main-slide{
+  margin-top: 60px;
+  /*  지역 변수 선언 */
+  --swiper-theme-color:orange;
+  width: 80vw;
+  margin: 0 auto;
+  
+}
+
+.main-slide .swiper .swiper-wrapper .swiper-slide{
+  background: no-repeat 50% / cover;
+  text-indent: -9999px;
+  width: 200px;
+  height: 200px;
+
+}
+.main-slide .swiper .swiper-wrapper {
+  gap: 100px;
+}
+.main-slide .swiper .swiper-wrapper .main-bg1{background-image: url(https://placehold.co/1000x600/FF885B/fff?text=bg1);}
+.main-slide .swiper .swiper-wrapper .main-bg2{background-image: url(https://placehold.co/1000x600/7AB2D3/fff?text=bg2);}
+.main-slide .swiper .swiper-wrapper .main-bg3{background-image: url(https://placehold.co/1000x600/9B7EBD/fff?text=bg3);}
+.main-slide .swiper .swiper-wrapper .main-bg4{background-image: url(https://placehold.co/1000x600/E6C767/fff?text=bg4);}
+.main-slide .swiper .swiper-wrapper .main-bg5{background-image: url(https://placehold.co/1000x600/7AB2D3/fff?text=bg5);}
+.main-slide .swiper .swiper-wrapper .main-bg6{background-image: url(https://placehold.co/1000x600/9B7EBD/fff?text=bg6);}
+.main-slide .swiper .swiper-wrapper .main-bg7{background-image: url(https://placehold.co/1000x600/E6C767/fff?text=bg7);}
+.main-slide .swiper .swiper-wrapper .main-bg8{background-image: url(https://placehold.co/1000x600/FF885B/fff?text=bg8);}
+.main-slide .swiper .swiper-wrapper .main-bg9{background-image: url(https://placehold.co/1000x600/7AB2D3/fff?text=bg9);}
+.main-slide .swiper .swiper-wrapper .main-bg10{background-image: url(https://placehold.co/1000x600/9B7EBD/fff?text=bg10);}
+
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
